@@ -1,0 +1,15 @@
+{
+  "name": "onlinetapnews",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
