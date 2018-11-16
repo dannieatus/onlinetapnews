@@ -37,7 +37,7 @@ NEWS_TIME_OUT_IN_SECONDS = 3600 * 24 * 3
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://lmrfsaic:sgIlkcYxxRmhBXCltWGIOP8I8yqe5Cj5@otter.rmq.cloudamqp.com/lmrfsaic"
+SCRAPE_NEWS_TASK_QUEUE_URL = "xxx"
 SCRAPE_NEWS_TASK_QUEUE_NAME = "tap-news-scarpe-news-task-queue"
 
 NEWS_SOURCES = [
