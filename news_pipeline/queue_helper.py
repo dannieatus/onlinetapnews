@@ -7,9 +7,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
 
 from cloudAMQP_client import CloudAMQPClient
 
-SCRAPE_NEWS_TASK_QUEUE_URL = "amqp://lmrfsaic:sgIlkcYxxRmhBXCltWGIOP8I8yqe5Cj5@otter.rmq.cloudamqp.com/lmrfsaic"
+SCRAPE_NEWS_TASK_QUEUE_URL = "xxx"
 SCRAPE_NEWS_TASK_QUEUE_NAME = "tap-news-scarpe-news-task-queue"
-DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://tqrmlbso:y2iupCFv2tdZXpl4_wKfQlMXh13Zqug7@otter.rmq.cloudamqp.com/tqrmlbso"
+DEDUPE_NEWS_TASK_QUEUE_URL = "xxx"
 DEDUPE_NEWS_TASK_QUEUE_NAME = "tap-news-dedupe-news-task-queue"
 
 def clearQueue(queue_url, queue_name):
