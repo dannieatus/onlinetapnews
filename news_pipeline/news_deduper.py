@@ -13,7 +13,7 @@ import mongodb_client
 import news_topic_modeling_service_client
 from cloudAMQP_client import CloudAMQPClient
 
-DEDUPE_NEWS_TASK_QUEUE_URL = "amqp://tqrmlbso:y2iupCFv2tdZXpl4_wKfQlMXh13Zqug7@otter.rmq.cloudamqp.com/tqrmlbso"
+DEDUPE_NEWS_TASK_QUEUE_URL = "xxx"
 DEDUPE_NEWS_TASK_QUEUE_NAME = "tap-news-dedupe-news-task-queue"
 
 SLEEP_TIME_IN_SECONDS = 2
